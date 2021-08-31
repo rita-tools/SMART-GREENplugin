@@ -1,0 +1,9 @@
+# tabella con esempi di LID parametrizzati
+#OBJ_ID: identificativo univoco (testo), NAME: nome descrittivo, TYPE: tipologia (R=serbatorio, G= area filtrante)
+#SOIL_IDS: identificativi dei suoli (dal più alto al più basso separati da virgola), VEG_ID: identificativo della vegetazione,
+#SUB_ID: identificativo del substrato, VOLMAX: volume massimo del serbatoio in m^3, DIAM: diametro del serbatoio in m, DIAM_OUT: diametro foro di uscita in metri,
+#T_AREA: tabella variazione dell'area, T_OUT: tabella di deflusso, NOTE: note aggiuntive
+OBJ_ID;NAME;TYPE;SOIL_IDS;VEG_ID;SUB_ID;VOLMAX;DIAM;DIAM_OUT;T_AREA;T_OUT;NOTE
+1;tetto prova A;4;71,72,73;11;81;NULL;NULL;NULL;NULL;NULL;esempio
+2;tetto prova B;4;77;13;83;NULL;NULL;NULL;NULL;NULL;esempio
+3;cisterna;1;NULL;NULL;NULL;5.6;1.5;0.04;NULL;NULL;esempio

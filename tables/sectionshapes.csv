@@ -1,0 +1,12 @@
+# id =  identificativo del tipo di sezione secondo D.d.g. 10 aprile 2014 - n. 3095
+# descrizione = descrizione estesa della geometria
+# forma = codice utilizzato in SMARTGREEN
+id;descrizione;FORMA
+01;Circolare;C
+02;Ellittica;R
+03;A uovo (alt/larg=3/2);R
+04;A bocca (alt/larg=1.66/2);R
+05;Rettangolare;R
+06;A volta (policentrica);C
+91;Non conosciuto;C
+95;Altro;C

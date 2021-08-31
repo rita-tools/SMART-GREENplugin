@@ -1,0 +1,21 @@
+# tabella di importazione per lo strato dei bacini
+#variabile;campo;um
+qgis.lidlayer.field.obj_id;;
+qgis.lidlayer.field.name;;
+qgis.lidlayer.field.node_to;;
+qgis.lidlayer.field.type;;
+qgis.lidlayer.field.cat;;
+qgis.lidlayer.field.vol;;
+qgis.lidlayer.field.height;;
+qgis.lidlayer.field.diam_out;;
+qgis.lidlayer.field.height_out;;
+qgis.lidlayer.field.depth;;
+qgis.lidlayer.field.ks_soil;;
+qgis.lidlayer.field.teta_sat;;
+qgis.lidlayer.field.teta_fc;;
+qgis.lidlayer.field.teta_wp;;
+qgis.lidlayer.field.slope;;
+qgis.lidlayer.field.wp_max;;
+qgis.lidlayer.field.ks_sub;;
+qgis.lidlayer.field.msg;;
+### end ###

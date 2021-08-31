@@ -1,0 +1,4 @@
+# default values for WMS services
+id;value;name;description
+dtm5x5;contextualWMSLegend=0&crs=EPSG:32632&dpiMode=7&featureCount=10&format=image/jpeg&layers=DTM%205X5&styles=&url=http://www.cartografia.servizirl.it/arcgis/services/wms/DTM5_RL_wms/MapServer/WMSServer;DTM Reg. Lombardia;DTM della Regione Lombardia
+### end ###

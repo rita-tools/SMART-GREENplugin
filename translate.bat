@@ -1,0 +1,1 @@
+lrelease i18n/smartgreen_ui_it.ts

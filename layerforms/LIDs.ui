@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>335</width>
+    <height>365</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>General</string>
+      </attribute>
+      <layout class="QFormLayout" name="formLayout">
+       <item row="0" column="0">
+        <widget class="QLabel" name="OBJ_ID_LBL">
+         <property name="text">
+          <string>Object id:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="OBJ_ID"/>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="NAME_LBL">
+         <property name="text">
+          <string>Name:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="NAME"/>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="NODE_TO_LBL">
+         <property name="text">
+          <string>Receiving node:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QComboBox" name="NODE_TO_CB">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="TYPE_LBL">
+         <property name="text">
+          <string>LID type:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QComboBox" name="TYPE_CB">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLineEdit" name="TYPE"/>
+       </item>
+       <item row="5" column="1">
+        <widget class="QLineEdit" name="NODE_TO"/>
+       </item>
+      </layout>
+      <zorder>NODE_TO</zorder>
+      <zorder>TYPE_CB</zorder>
+      <zorder>NODE_TO_CB</zorder>
+      <zorder>OBJ_ID_LBL</zorder>
+      <zorder>NAME_LBL</zorder>
+      <zorder>NAME</zorder>
+      <zorder>TYPE</zorder>
+      <zorder>TYPE_LBL</zorder>
+      <zorder>NODE_TO_LBL</zorder>
+      <zorder>OBJ_ID</zorder>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>Parameters</string>
+      </attribute>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QScrollArea" name="scrollArea">
+         <property name="widgetResizable">
+          <bool>true</bool>
+         </property>
+         <widget class="QWidget" name="scrollAreaWidgetContents">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>268</width>
+            <height>365</height>
+           </rect>
+          </property>
+          <layout class="QFormLayout" name="formLayout_2">
+           <item row="0" column="0">
+            <widget class="QLabel" name="CAT_LBL">
+             <property name="text">
+              <string>Category:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QComboBox" name="CAT_CB">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="VOL_LBL">
+             <property name="text">
+              <string>Storage volume (m^3):</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QLineEdit" name="VOL"/>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="HEIGHT_LBL">
+             <property name="text">
+              <string>Height (m):</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QLineEdit" name="HEIGHT"/>
+           </item>
+           <item row="3" column="0">
+            <widget class="QLabel" name="DIAM_OUT_LBL">
+             <property name="text">
+              <string>Outlet diameter (m):</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1">
+            <widget class="QLineEdit" name="DIAM_OUT"/>
+           </item>
+           <item row="4" column="0">
+            <widget class="QLabel" name="HEIGHT_OUT_LBL">
+             <property name="text">
+              <string>Outlet height (m):</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="1">
+            <widget class="QLineEdit" name="HEIGHT_OUT"/>
+           </item>
+           <item row="5" column="0">
+            <widget class="QLabel" name="DEPTH_LBL">
+             <property name="text">
+              <string>Depth (m):</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="1">
+            <widget class="QLineEdit" name="DEPTH"/>
+           </item>
+           <item row="6" column="0">
+            <widget class="QLabel" name="KS_SOIL_LBL">
+             <property name="text">
+              <string>Soil Ks (m/s):</string>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="1">
+            <widget class="QLineEdit" name="KS_SOIL"/>
+           </item>
+           <item row="7" column="0">
+            <widget class="QLabel" name="TETA_SAT_LBL">
+             <property name="text">
+              <string>Saturation (-):</string>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="1">
+            <widget class="QLineEdit" name="TETA_SAT"/>
+           </item>
+           <item row="8" column="0">
+            <widget class="QLabel" name="TETA_FC_LBL">
+             <property name="text">
+              <string>Field capacity (-):</string>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="1">
+            <widget class="QLineEdit" name="TETA_FC"/>
+           </item>
+           <item row="9" column="0">
+            <widget class="QLabel" name="TETA_WP_LBL">
+             <property name="text">
+              <string>Wilting point (-):</string>
+             </property>
+            </widget>
+           </item>
+           <item row="9" column="1">
+            <widget class="QLineEdit" name="TETA_WP"/>
+           </item>
+           <item row="10" column="0">
+            <widget class="QLabel" name="SLOPE_LBL">
+             <property name="text">
+              <string>Slope (-):</string>
+             </property>
+            </widget>
+           </item>
+           <item row="10" column="1">
+            <widget class="QLineEdit" name="SLOPE"/>
+           </item>
+           <item row="11" column="0">
+            <widget class="QLabel" name="WP_MAX_LBL">
+             <property name="text">
+              <string>Interception (mm):</string>
+             </property>
+            </widget>
+           </item>
+           <item row="11" column="1">
+            <widget class="QLineEdit" name="WP_MAX"/>
+           </item>
+           <item row="12" column="0">
+            <widget class="QLabel" name="KS_SUB_LBL">
+             <property name="text">
+              <string>Subsoil Ks (m/s):</string>
+             </property>
+            </widget>
+           </item>
+           <item row="12" column="1">
+            <widget class="QLineEdit" name="KS_SUB"/>
+           </item>
+           <item row="13" column="1">
+            <widget class="QLineEdit" name="CAT"/>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

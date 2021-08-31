@@ -1,0 +1,10 @@
+# tabella di importazione dei nodi del reticolo da schema D.d.g. 10 aprile 2014 - n. 3095
+#variabile;campo;um
+qgis.nodeslayer.field.obj_id;FILE_ID;
+qgis.nodeslayer.field.elev_bot;QUO_FON;m
+qgis.nodeslayer.field.elev_top;P_QUO;m
+qgis.nodeslayer.field.area;;m2
+qgis.nodeslayer.field.table;;
+qgis.nodeslayer.field.tvalue;;
+qgis.nodeslayer.field.msg;;
+### end ###

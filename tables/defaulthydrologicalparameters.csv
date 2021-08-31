@@ -1,0 +1,10 @@
+# default values for hydrological variables
+id;value;name;description
+param_default.Wg0;300.0;Large pore water holding capacity;Large pore water holding capacity (mm)
+param_default.Wc0;500.0;Small pore water holding capacity;Small pore water holding capacity (mm)
+param_default.Wp0;5.0;Interception;Interception (mm)
+param_default.ks;54.0;Soil hydraulic conductivity;Soil hydraulic conductivity (mm/h)
+param_default.kf;1e-07;Acquifer conductivity;Acquifer conductivity (mm/s)
+param_default.CH;1e-03;Turbulent exchange coefficient;Turbulent exchange coefficient (-)
+param_default.Alb;2e-01;Albedo;Albedo (-)
+### end ###

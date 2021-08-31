@@ -1,0 +1,105 @@
+# default outputs settings
+id;value;name;description
+qgis.networklayer;links;Network layer;The vector layer containing the drainage network
+qgis.networklayer.field.obj_id;OBJ_ID;Line id;Field name of conduits numerical id. in urban drainage network attribute table
+qgis.networklayer.field.node_start;NODE_START;Start node;Field name of conduits starting node id in network attribute table
+qgis.networklayer.field.node_end;NODE_END;End node;Field name of conduits final node id in network attribute table
+qgis.networklayer.field.s_shape;S_SHAPE;Conduit shape;Field name of conduits cross sectional shape in network attribute table
+qgis.networklayer.field.diam;DIAM;Diameter;Field name of conduits cross section diameter (for circular conduit only)
+qgis.networklayer.field.dim1;DIM1;First dimension;Field name of conduits cross section characteristic length D1 (heigth in all the case)
+qgis.networklayer.field.dim2;DIM2;Second dimension;Field name of conduits cross section characteristic length D2 (width in case of rectangula or ellipital section)
+qgis.networklayer.field.dim3;DIM3;Third dimension;Field name of conduits cross section characteristic length D3 (slope in case of trapezoidal channel)
+qgis.networklayer.field.dim4;DIM4;Fourth dimension;Field name of conduits cross section characteristic length D4 (slope in case of trapezoidal channel)
+qgis.networklayer.field.table;TABLE;Section table;Field name of the name of the table with natural section points
+qgis.networklayer.field.elev_start;ELEV_START;Elevation start;Field name of conduits invert elevation at starting point in network attribute table
+qgis.networklayer.field.elev_end;ELEV_END;Elevation end;Field name of conduits invert elevation at final point in network attribute table
+qgis.networklayer.field.mann;MANN;Manning n;Field name of Manning n in network attribute table
+qgis.networklayer.field.length;LENGTH;Conduit length;Field name of conduits length
+qgis.networklayer.field.tvalue;TVALUE;Temporary value;Field name where to store results
+qgis.networklayer.field.msg;MSG;Message;Field name for messages to the user
+qgis.nodeslayer;nodes;Nodes layer;The vector layer containing the drainage network nodes
+qgis.nodeslayer.field.obj_id;OBJ_ID;Point id field;Field name of nodes numerical id. in the attribute table
+qgis.nodeslayer.field.elev_bot;ELEV_BOT;Elevation at bottom field;Field name of node invert elevation in the attribute table (m a.s.l.)
+qgis.nodeslayer.field.elev_top;ELEV_TOP;Elevation at top field;Field name of node top elevation in the attribute table (m a.s.l.)
+qgis.nodeslayer.field.area;AREA;Area field;Field name of node planar area in the attribute table (m^2)
+qgis.nodeslayer.field.table;TABLE;Area-depth table;Contain the name of the area-depth relation
+qgis.nodeslayer.field.tvalue;TVALUE;Temporary value;Field name where to store results
+qgis.nodeslayer.field.msg;MSG;Message;Field name message to the user
+qgis.subcatchmentslayer;subcatchments;Subcatchments layer;The vector layer containing the drainage area
+qgis.subcatchmentslayer.field.obj_id;OBJ_ID;Catchment id;Field name of catchment id in the attribute table
+qgis.subcatchmentslayer.field.node_id;NODE_ID;Node id;Field name of node id connected to the catchment
+qgis.subcatchmentslayer.field.ks;KS;Ks;Default soil hydraulic conductivity (mm/h)
+qgis.subcatchmentslayer.field.wg0;WG0;Wg0;Default large pore water holding capacity (mm)
+qgis.subcatchmentslayer.field.wc0;WC0;Wc0;Default small pore water holding capacity (mm)
+qgis.subcatchmentslayer.field.wp0;WP0;Wp0;Default interception (mm)
+qgis.subcatchmentslayer.field.ch;CH;Ch;Default turbulent exchange coefficient (-)
+qgis.subcatchmentslayer.field.alb;ALB;Alb;Default albedo (-)
+qgis.subcatchmentslayer.field.kf;KF;Default acquifer conductivity;Field name of the acquifer conductivity (mm/s) in the attribute table
+qgis.subcatchmentslayer.field.ma;MA;Default artesian acquifer extension;Field name of the artesian acquifer extension (0/1) in the attribute table
+qgis.subcatchmentslayer.field.mf;MF;Default freatic acquifer extension;Field name of freatic acquifer extension (0/1) in the attribute table
+qgis.subcatchmentslayer.field.tvalue;TVALUE;Temporary value;Field name where to store results
+qgis.subcatchmentslayer.field.msg;MSG;Message;Field name message to the user
+qgis.weatherstationslayer;weatherstations;Weather Stations layer;The vector layer containing the weather stations positions
+qgis.weatherstationslayer.field.obj_id;OBJ_ID;Weather station id;The name of the field that contains the weather stations id in the attribute table.
+qgis.weatherstationslayer.field.name;NAME;Name;The name of the field that contains the weather stations name in the attribute table.
+qgis.weatherstationslayer.field.a1;A1;a1;The name of the field that that contains the DDF a1 parameter (h=a1*w*d^n, w=eps+alp/kap*(1-(ln(Tr/(1-Tr)))^kap))
+qgis.weatherstationslayer.field.n;N;n;The name of the field that that contains the DDF n parameter (h=a1*w*d^n, w=eps+alp/kap*(1-(ln(Tr/(1-Tr)))^kap))
+qgis.weatherstationslayer.field.alp;ALP;alp;The name of the field that that contains the DDF alp parameter (h=a1*w*d^n, w=eps+alp/kap*(1-(ln(Tr/(1-Tr)))^kap))
+qgis.weatherstationslayer.field.eps;EPS;eps;The name of the field that that contains the DDF eps parameter (h=a1*w*d^n, w=eps+alp/kap*(1-(ln(Tr/(1-Tr)))^kap))
+qgis.weatherstationslayer.field.kap;KAP;kap;The name of the field that that contains the DDF kap parameter (h=a1*w*d^n, w=eps+alp/kap*(1-(ln(Tr/(1-Tr)))^kap))
+qgis.weatherstationslayer.field.table;TABLE;Data file;The name of the field that that will contains weather data (datetime, rain, temperature, ...)
+qgis.weatherstationslayer.field.msg;MSG;Message;Field name message to the user
+qgis.soilslayer;soils;Soil layer;The vector layer containing the soils type
+qgis.soilslayer.field.obj_id;OBJ_ID;Soil id;Field name of soil id in the attribute table.
+qgis.soilslayer.field.ks;KS;Ks;Soil hydraulic conductivity (mm/h)
+qgis.soilslayer.field.wg0;WG0;Wg0;Large pore water holding capacity (mm)
+qgis.soilslayer.field.wc0;WC0;Wc0;Small pore water holding capacity (mm)
+qgis.soilslayer.field.msg;MSG;Message;Field name message to the user
+qgis.landuseslayer;landuses;Landuse layer;The vector layer containing the land use
+qgis.landuseslayer.field.obj_id;OBJ_ID;land use id;Field name of land use id in the attribute table
+qgis.landuseslayer.field.wp0;WP0;Wp0;Interception (mm)
+qgis.landuseslayer.field.ch;CH;Ch;Turbulent exchange coefficient (-)
+qgis.landuseslayer.field.alb;ALB;Alb;Albedo (-)
+qgis.landuseslayer.field.msg;MSG;Message;Field name message to the user
+qgis.acquiferlayer;acquifer;Acquifer layer;The vector layer containing the acquifer extention
+qgis.acquiferlayer.field.obj_id;OBJ_ID;Acquifer id;Field name of acquifer id in the attribute table
+qgis.acquiferlayer.field.kf;KF;Acquifer conductivity;Field name of the acquifer conductivity (mm/s) in the attribute table
+qgis.acquiferlayer.field.ma;MA;Artesian acquifer extension;Field name of the artesian acquifer extension (0/1) in the attribute table
+qgis.acquiferlayer.field.mf;MF;Freatic acquifer extension;Field name of freatic acquifer extension (0/1) in the attribute table
+qgis.acquiferlayer.field.msg;MSG;Message;Field name message to the user
+qgis.lidlayer;LIDs;LID;Low Impact Infrastructure map
+qgis.lidlayer.field.obj_id;OBJ_ID;Object identifier;An unique id for the LID
+qgis.lidlayer.field.name;NAME;Name;Explicative name of the LID
+qgis.lidlayer.field.node_to;NODE_TO;Draining node;The node id where the LID drains
+qgis.lidlayer.field.type;TYPE;Type of LIDs;Type of the LID (1 = barrel, 2 = drained well, 3 = drained barrel, 4 = green roof, 5 = drained area)
+qgis.lidlayer.field.cat;CAT;Category;Category of the LID (1 = reservoir, 2 = soil)
+qgis.lidlayer.field.vol;VOL;Volume;Maximum reservoir volume (m^3)
+qgis.lidlayer.field.height;HEIGHT;Height;Maximum height of the reservoir (m)
+qgis.lidlayer.field.diam_out;DIAM_OUT;Outlet conduit diameter;Diameter of the outlet conduit (m)
+qgis.lidlayer.field.height_out;HEIGHT_OUT;Outlet conduit heigth;Elevation respect to the bottom of the reservoir (m)
+qgis.lidlayer.field.depth;DEPTH;Soil depth;Depth of the soil layer (m)
+qgis.lidlayer.field.ks_soil;KS_SOIL;Hydraulic conductivity;Hydraulic conductivity of the soil layer at saturation (m/s)
+qgis.lidlayer.field.teta_sat;TETA_SAT;Humidity at saturation;Soil water content per unit area at saturation (m)
+qgis.lidlayer.field.teta_fc;TETA_FC;Humidity at field capacity;Soil water content per unit area at field capacity (m)
+qgis.lidlayer.field.teta_wp;TETA_WP;Humidity at wilting point;Soil water content per unit area at wilting point (m)
+qgis.lidlayer.field.slope;SLOPE;Slope;Topographic slope (m/m)
+qgis.lidlayer.field.wp_max;WP_MAX;Interception;Interception (m)
+qgis.lidlayer.field.ks_sub;KS_SUB;Hydraulic conductivity;Hydraulic conductivity of the sub layer at saturation (m/s)
+qgis.lidlayer.field.msg;MSG;Message;Field name message to the user
+qgis.table.soilsparameters;;Soils parameters;Path to table that contains soils parameters
+qgis.table.landusesparameters;;Landuses parameters;Path to table that contains landuses parameters
+qgis.table.nofmanning;;Manning n;Path to table that contains Manning's coefficients
+qgis.table.sectionshapes;;Section shapes;Path to table that contains section shapes lookup table
+qgis.table.lidtypes;;LID types;Path to table that contains LID types
+qgis.table.lidsoiltypes;;LID soil types;Path to table that contains soil layers characteristics
+qgis.table.lidvegtypes;;LID vegetation types;Path to table that contains vegetation characteristics
+qgis.table.lidsubtypes;;LID sublayer types;Path to table that contains sublayer characteristics
+qgis.table.defaultdbstructure;;DB structure;database structure
+qgis.table.defaultconstants;;Physical constant;Path to table that contains physical constant values
+qgis.table.defaulthydraulicparameters;;Hydraulic parameters;Path to table that hydraulic parameter values
+qgis.table.defaulthydrologicalparameters;;Hydrological constant;Path to table that contains hydrological parameter values
+qgis.table.defaultprojectmetadata;;Project metadata;Path to table that contains project metadata
+qgis.table.defaultsimulationparameters;;Simulation settings;Path to table that contains simulation settings
+qgis.table.precipitations;;Precipitations;Path to table that contains precipitation series
+qgis.table.results;;Results;Path to table that contains results series
+### end ###

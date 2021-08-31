@@ -1,0 +1,12 @@
+# tabella di importazione dei nodi del reticolo da schema D.d.g. 10 aprile 2014 - n. 3095
+#variabile;campo;um
+qgis.weatherstationslayer.field.obj_id;id;
+qgis.weatherstationslayer.field.name;name;
+qgis.weatherstationslayer.field.a1;a1;
+qgis.weatherstationslayer.field.n;n;
+qgis.weatherstationslayer.field.alp;alp;
+qgis.weatherstationslayer.field.eps;eps;
+qgis.weatherstationslayer.field.kap;kap;
+qgis.weatherstationslayer.field.table;;
+qgis.weatherstationslayer.field.msg;;
+### end ###

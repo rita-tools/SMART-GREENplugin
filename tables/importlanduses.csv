@@ -1,0 +1,8 @@
+# tabella di importazione per lo strato dei bacini
+#variabile;campo;um
+qgis.landuseslayer.field.obj_id;;
+qgis.landuseslayer.field.wp0;;
+qgis.landuseslayer.field.ch;;
+qgis.landuseslayer.field.alb;;
+qgis.landuseslayer.field.msg;;
+### end ###

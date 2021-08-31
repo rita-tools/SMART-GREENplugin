@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>477</width>
+    <height>318</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1000</width>
+    <height>1000</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="locale">
+   <locale language="English" country="UnitedKingdom"/>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="5" column="0">
+    <widget class="QLabel" name="EPS_LBL">
+     <property name="text">
+      <string>EPS:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="NAME_LBL">
+     <property name="text">
+      <string>Name:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="ALP_LBL">
+     <property name="text">
+      <string>ALP:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="1">
+    <widget class="QComboBox" name="TABLE_CB"/>
+   </item>
+   <item row="7" column="2">
+    <widget class="QLineEdit" name="TABLE"/>
+   </item>
+   <item row="5" column="2">
+    <widget class="QPushButton" name="EPS_BTN">
+     <property name="text">
+      <string>...</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QLineEdit" name="A1"/>
+   </item>
+   <item row="6" column="1">
+    <widget class="QLineEdit" name="KAP"/>
+   </item>
+   <item row="1" column="1">
+    <widget class="QLineEdit" name="NAME"/>
+   </item>
+   <item row="3" column="2">
+    <widget class="QPushButton" name="N_BTN">
+     <property name="text">
+      <string>...</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="1">
+    <widget class="QLineEdit" name="EPS"/>
+   </item>
+   <item row="6" column="0">
+    <widget class="QLabel" name="KAP_LBL">
+     <property name="text">
+      <string>KAP:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2">
+    <widget class="QPushButton" name="A1_BTN">
+     <property name="text">
+      <string>...</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="2">
+    <widget class="QPushButton" name="ALP_BTN">
+     <property name="text">
+      <string>...</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="1">
+    <widget class="QLineEdit" name="MSG"/>
+   </item>
+   <item row="8" column="0">
+    <widget class="QLabel" name="MSG_LBL">
+     <property name="text">
+      <string>Message:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="A1_LBL">
+     <property name="text">
+      <string>A1:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="0">
+    <widget class="QLabel" name="TABLE_LBL">
+     <property name="text">
+      <string>Table:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="2">
+    <widget class="QPushButton" name="KAP_BTN">
+     <property name="text">
+      <string>...</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="N_LBL">
+     <property name="text">
+      <string>N:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QLineEdit" name="ALP"/>
+   </item>
+   <item row="3" column="1">
+    <widget class="QLineEdit" name="N"/>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLineEdit" name="OBJ_ID">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="OBJ_ID_LBL">
+     <property name="locale">
+      <locale language="English" country="UnitedStates"/>
+     </property>
+     <property name="text">
+      <string>Object id:</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

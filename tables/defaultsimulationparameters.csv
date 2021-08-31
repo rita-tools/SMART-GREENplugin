@@ -1,0 +1,30 @@
+# default outputs settings
+id;value;name;description
+urban.tr;5.0;Return time;Return time (y)
+urban.simlength;3.0;Simulation duration;Simulation duration in hours
+basestep;60;Simulation base step;Simulation base step (in seconds)
+urban.dt;3;Resolution time step;Time used during iteration (in secods)
+initinfo.ws;0.0;Inital runoff depth;Inital depth of hillsope runoff (m)
+initinfo.wcsat;0.0;Inital relative saturation of capillary soil;Inital relative saturation of capillary soil (-)
+initinfo.wgsat;0.0;Inital relative saturation of gravitational soil;Inital relative saturation of gravitational soil (-)
+qgis.cellsize;5.0;Cell size;Dimension of the discretization cell
+qgis.bufferdistance;250;Buffer distance;Buffer distance to use to create subcatchments
+qgis.buffersegments;1;Buffer segments;Buffer segments number to use to create subcatchments
+state_output.Qret;1;Save states for streams;option to save states of streams network for results analysis (<0>=NO, <1>=YES)
+state_output.res_rout;0;Save states for reservoirs;option to save states of reservoirs and lakes for results analysis (<0>=NO, <1>=YES)
+state_output.Wc;1;Save states for small pores;option to save states of soil small pores for results analysis (<0>=NO, <1>=YES)
+state_output.Wg;1;Save states for large pores;option to save states of soil large pores for results analysis (<0>=NO, <1>=YES)
+state_output.Ws;1;Save states for TODO;(<0>=NO, <1>=YES)
+state_output.Wp;0;Save states for TODO;(<0>=NO, <1>=YES)
+state_output.Ts;0;Save states for land surface temperature;option to save states of land surface temperature for results analysis (<0>=NO, <1>=YES)
+state_output.Td;0;Save states for ground temperature;option to save states of ground temperature for results analysis (<0>=NO, <1>=YES)
+state_output.h;0;Save states for acquifer;option to save states of aquifers for results analysis (<0>=NO, <1>=YES)
+state_output.evr;0;Save states for evapotranspiration TODO;option to save states of evapotranspiration and precipitation for results analysis (<0>=NO, <1>=YES)
+state_output.ener;0;Save states for evapotranspiration TODO;option to save states of evapotranspiration and precipitation for results analysis (<0>=NO, <1>=YES)
+statespath;.\states;Path to the output states;Directory where the model will save the states
+gisdatapath;;Path to gisdata;Folder where gis dataset will be stored
+timeseriespath;;Path to meteo data; Folder where meteo data will be stored
+mobidicproject;;MOBIDIC project;MOBIDIC project file path
+runtype;URBAN;Type of simulation;One amnog the following options <URBAN>, <NATURAL> default is <NATURAL>
+realtime;0;Option to wait for new data at end of computation (realtime mode);Integer number, 0=NO, 1=YES, -1=CALIBRATION (AVOID RE-INTERPOLATION)
+### end ###

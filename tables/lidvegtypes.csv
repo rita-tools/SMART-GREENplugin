@@ -1,0 +1,8 @@
+# tabella con tipologie di vegetazione da impiegarsi nelle LID
+#OBJ_ID: identificativo univoco (testo), NAME: nome descrittivo, WP_MAX: intercettazione fogliare massima
+#NOTE: note aggiuntive
+OBJ_ID;NAME;WP_MAX;NOTE
+11;erbetta;7;esempio
+12;cespugli;5;esempio
+13;alberelli;11;esempio
+14;foresta;15;esempio

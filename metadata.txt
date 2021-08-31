@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=SMARTGREEN
+qgisMinimumVersion=3.0
+description=A plugin that enables additional features and capabilities to setup GIS database for hydrological simulation with MOBIDIC-U
+version=0.1
+author=UNIMI
+email=enrico.chiaradia@unimi.it
+
+about=A framework to plan and test green infrastructure development.
+
+tracker=https://github.com/SMARTGREENplugin/issues
+repository=https://github.com/SMARTGREENplugin/code
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=water, hydraulic, model, hydrology, urban drainage
+
+homepage=https://github.com/SMARTGREENplugin/code/wiki
+category=Analysis
+icon=icons/smartgreen.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<plugins>
+    <pyqgis_plugin name="SMARTGREEN" version="0.1">
+        <description>A plugin that enables additional features and capabilities to setup GIS database for hydrological simulation with MOBIDIC-U</description>
+        <about>A framework to plan and test green infrastructure development.</about>
+        <qgis_minimum_version>2.14</qgis_minimum_version>
+        <author_name>Enrico Antonio Chiaradia</author_name>
+        <download_url>http://sites.unimi.it/smartgreen/plugin/smartgreen_plugin.zip</download_url>
+        <file_name>smartgreen_plugin.zip</file_name>    
+        <icon>smartgreen.png</icon>    
+        <tags>water, hydraulic, model, hydrology, urban drainage</tags>       
+        <homepage>https://github.com/SMARTGREENplugin/code/wiki</homepage>
+        <repository>https://github.com/SMARTGREENplugin/code</repository>
+        <tracker>https://github.com/SMARTGREENplugin/issues</tracker>      
+        <experimental>True</experimental>    
+    </pyqgis_plugin>
+</plugins>

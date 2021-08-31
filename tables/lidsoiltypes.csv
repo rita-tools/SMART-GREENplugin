@@ -1,0 +1,10 @@
+# tabella con tipologie di suoli da impiegarsi nelle LID
+#OBJ_ID: identificativo univoco (testo), NAME: nome descrittivo,
+#KS: conducibilità idraulica in m/s, TETA_SAT: umidità a saturazione, TETA_FC: umidità a capacità di campo, TETA_WP: umidità al punto di appassimento,
+#DEPTH: profondità dello strato in metri, SLOPE: pendenza dello strato,
+#NOTE: note aggiuntive
+OBJ_ID;NAME;KS;TETA_SAT;TETA_FC;TETA_WP;DEPTH;SLOPE;NOTE
+71;ghiaioso;1.00E-06;0.35;0.12;0.03;5;0;esempio
+72;sabbioso;5.00E-06;0.27;0.06;0.02;50;0;esempio
+73;argilloso;7.00E-06;0.15;0.07;0.025;5;0;esempio
+77;limoso;1.00E-05;0.19;0.05;0.04;70;0;esempio

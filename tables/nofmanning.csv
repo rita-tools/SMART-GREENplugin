@@ -1,0 +1,39 @@
+# modificato da ASCE (1982). Gravity Sanitary Sewer Design and Construction, ASCE Manual of Practice No. 60, New York, NY.;
+id;descrizione;n_Manning
+01;Muratura;0.014
+02;Gres ceramico;0.013
+03;Ghisa;0.013
+0301;Ghisa grigia (con grafite lamellare);0.013
+0302;Ghisa sferoidale;0.013
+04;Acciaio;0.013
+0401;Acciaio verniciato;0.013
+0402;Acciaio plastificato;0.013
+0403;Acciaio zincato;0.013
+0404;Acciaio inossidabile;0.013
+0405;Acciaio legato;0.013
+05;Ottone;0.013
+06;Cemento;0.013
+0601;Cemento amianto;0.013
+0602;Fibrocemento;0.013
+0603;Cemento/ghisa;0.013
+0604;Cemento non armato;0.013
+0605;Cemento armato impastato sul posto;0.013
+0606;Cemento armato precompresso;0.013
+0607;Cemento armato centrifugato;0.013
+0608;Cemento armato polimero;0.013
+07;Calcestruzzo di poliestere;0.013
+08;Resina di poliestere;0.013
+09;Poliestere;0.013
+10;Polietilene;0.013
+11;Polipropilene;0.013
+12;Cloruro di polivinile;0.013
+1201;Cloruro di polivinile forte;0.013
+13;Resina termoindurente rinforzata con fibre vetro;0.013
+14;Miscela di materiali diversi;0.013
+15;Legno;0.013
+16;Bonna;0.013
+17;Piombo;0.013
+18;Alluminio;0.013
+19;Rame;0.013
+91;Non conosciuto;0.013
+95;Altro;0.013

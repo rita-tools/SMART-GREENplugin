@@ -1,0 +1,12 @@
+# default values for hydraulic variables
+id;value;name;description
+param_default.shape_urban;C;Section shape;Section shape (code)
+param_default.size_urban;0.8;Conduit diameter;Conduit diameter (m)
+param_default.min_diam;0.1;Min conduit diameter; Minimum conduit diameter (m)
+param_default.max_diam;2;Max conduit diameter; Maximum conduit diameter (m)
+param_default.L_urban;100.0;Conduit length;Conduit length (m)
+param_default.mann_urban;0.017;Conduit roughness;Conduit Manning\'s coefficient
+param_default.yfull_urban;0.7;Node depth;Default node depth
+param_default.nodearea_urban;1.16;Node area;Default node area
+param_default.conduit_slope;0.002;Defualt conduit slope;Defualt conduit slope to use if start and end elevation are not provided (m/m)
+### end ###

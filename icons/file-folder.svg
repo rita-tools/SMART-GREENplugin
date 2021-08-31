@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<svg
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:cc="http://web.resource.org/cc/"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    style="shape-rendering:geometricPrecision;text-rendering:geometricPrecision;image-rendering:optimizeQuality"
+    fill-rule="evenodd"
+    xml:space="preserve"
+    version="1.1"
+    clip-rule="evenodd"
+    viewBox="0 0 8500 11000"
+  >
+ <defs
+    >
+  <style
+        type="text/css"
+      >
+    .fil0 {fill:#D7CC75}
+    .fil1 {fill:#373435;fill-rule:nonzero}
+  </style
+    >
+ </defs
+  >
+ <g
+      id="Layer_x0020_1"
+    >
+  <path
+        id="folder"
+        d="m1712 3902h6370c126 0 204 103 173 229l-805 3322h-6828l805-3322c30-126 158-229 284-229zm-861-588h641v-392c0-94 77-171 171-171h1605c94 0 171 77 171 171v392h3781c126 0 229 103 229 229v359h-5738c-126 0-254 103-284 229l-805 3322v-3910c0-126 103-229 229-229z"
+        class="fil0"
+    />
+  <path
+        id="outline"
+        d="m1712 3826h5662v-283c0-42-17-80-45-108s-66-45-108-45h-3857v-468c0-26-11-50-28-67s-41-28-67-28h-1605c-26 0-50 11-67 28s-28 41-28 67v468h-717c-42 0-80 17-108 45s-45 66-45 108v3273l655-2703c19-80 69-151 133-203s145-84 225-84zm5814 0h556c23 0 45 3 67 8 57 14 104 45 137 88s51 96 51 155c0 22-3 46-9 71l-805 3322-14 58h-6964v-3986c0-84 34-160 90-215 55-55 131-90 215-90h565v-316c0-68 28-130 73-175s107-73 175-73h1605c68 0 130 28 175 73s73 107 73 175v316h3705c84 0 160 34 215 90 55 55 90 131 90 215v283zm556 152h-6370c-45 0-92 19-130 50-39 31-69 74-80 120l-782 3228h6671l791-3263c3-12 4-24 4-36 0-25-7-46-19-62s-30-28-53-33c-9-2-20-3-32-3z"
+        class="fil1"
+    />
+ </g
+  >
+<metadata
+    ><rdf:RDF
+      ><cc:Work
+        ><dc:format
+          >image/svg+xml</dc:format
+        ><dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        /><cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        /><dc:publisher
+          ><cc:Agent
+              rdf:about="http://openclipart.org/"
+            ><dc:title
+              >Openclipart</dc:title
+            ></cc:Agent
+          ></dc:publisher
+        ><dc:title
+          >File Folder</dc:title
+        ><dc:date
+          >2013-05-08T15:24:33</dc:date
+        ><dc:description
+          >A file folder that would be tabbed and put into a filing cabinet. Use as icons or bullets in documents, flyers or brochures.</dc:description
+        ><dc:source
+          >https://openclipart.org/detail/177890/file-folder-by-thebyteman-177890</dc:source
+        ><dc:creator
+          ><cc:Agent
+            ><dc:title
+              >TheByteMan</dc:title
+            ></cc:Agent
+          ></dc:creator
+        ><dc:subject
+          ><rdf:Bag
+            ><rdf:li
+              >file folder</rdf:li
+            ><rdf:li
+              >folder</rdf:li
+            ><rdf:li
+              >manila</rdf:li
+            ><rdf:li
+              >manila folder</rdf:li
+            ><rdf:li
+              >office folder</rdf:li
+            ><rdf:li
+              >tabbed folder</rdf:li
+            ></rdf:Bag
+          ></dc:subject
+        ></cc:Work
+      ><cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        ><cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        /><cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        /><cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        /></cc:License
+      ></rdf:RDF
+    ></metadata
+  ></svg
+>

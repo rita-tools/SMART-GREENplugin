@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>335</width>
+    <height>365</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="modal">
+   <bool>true</bool>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>General</string>
+      </attribute>
+      <layout class="QFormLayout" name="formLayout">
+       <property name="fieldGrowthPolicy">
+        <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+       </property>
+       <item row="0" column="0">
+        <widget class="QLabel" name="TYPE_LBL">
+         <property name="text">
+          <string>LID type:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QComboBox" name="TYPE_CB">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="TYPE"/>
+       </item>
+       <item row="2" column="1">
+        <widget class="QCheckBox" name="SELECTION_CB">
+         <property name="text">
+          <string>Apply to selection only</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+      <zorder>TYPE_CB</zorder>
+      <zorder>TYPE</zorder>
+      <zorder>TYPE_LBL</zorder>
+      <zorder>SELECTION_CB</zorder>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>Parameters</string>
+      </attribute>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QScrollArea" name="scrollArea">
+         <property name="widgetResizable">
+          <bool>true</bool>
+         </property>
+         <widget class="QWidget" name="scrollAreaWidgetContents">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>274</width>
+            <height>376</height>
+           </rect>
+          </property>
+          <layout class="QFormLayout" name="formLayout_2">
+           <item row="0" column="0">
+            <widget class="QLabel" name="CAT_LBL">
+             <property name="text">
+              <string>Category:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QComboBox" name="CAT_CB">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="VOL_LBL">
+             <property name="text">
+              <string>Storage volume (m^3):</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QLineEdit" name="VOL"/>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="HEIGHT_LBL">
+             <property name="text">
+              <string>Height (m):</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QLineEdit" name="HEIGHT"/>
+           </item>
+           <item row="3" column="0">
+            <widget class="QLabel" name="DIAM_OUT_LBL">
+             <property name="text">
+              <string>Outlet diameter (m):</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1">
+            <widget class="QLineEdit" name="DIAM_OUT"/>
+           </item>
+           <item row="4" column="0">
+            <widget class="QLabel" name="HEIGHT_OUT_LBL">
+             <property name="text">
+              <string>Outlet height (m):</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="1">
+            <widget class="QLineEdit" name="HEIGHT_OUT"/>
+           </item>
+           <item row="5" column="0">
+            <widget class="QLabel" name="DEPTH_LBL">
+             <property name="text">
+              <string>Depth (m):</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="1">
+            <widget class="QLineEdit" name="DEPTH"/>
+           </item>
+           <item row="6" column="0">
+            <widget class="QLabel" name="KS_SOIL_LBL">
+             <property name="text">
+              <string>Soil Ks (m/s):</string>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="1">
+            <widget class="QLineEdit" name="KS_SOIL"/>
+           </item>
+           <item row="7" column="0">
+            <widget class="QLabel" name="TETA_SAT_LBL">
+             <property name="text">
+              <string>Saturation (-):</string>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="1">
+            <widget class="QLineEdit" name="TETA_SAT"/>
+           </item>
+           <item row="8" column="0">
+            <widget class="QLabel" name="TETA_FC_LBL">
+             <property name="text">
+              <string>Field capacity (-):</string>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="1">
+            <widget class="QLineEdit" name="TETA_FC"/>
+           </item>
+           <item row="9" column="0">
+            <widget class="QLabel" name="TETA_WP_LBL">
+             <property name="text">
+              <string>Wilting point (-):</string>
+             </property>
+            </widget>
+           </item>
+           <item row="9" column="1">
+            <widget class="QLineEdit" name="TETA_WP"/>
+           </item>
+           <item row="10" column="0">
+            <widget class="QLabel" name="SLOPE_LBL">
+             <property name="text">
+              <string>Slope (-):</string>
+             </property>
+            </widget>
+           </item>
+           <item row="10" column="1">
+            <widget class="QLineEdit" name="SLOPE"/>
+           </item>
+           <item row="11" column="0">
+            <widget class="QLabel" name="WP_MAX_LBL">
+             <property name="text">
+              <string>Interception (mm):</string>
+             </property>
+            </widget>
+           </item>
+           <item row="11" column="1">
+            <widget class="QLineEdit" name="WP_MAX"/>
+           </item>
+           <item row="12" column="0">
+            <widget class="QLabel" name="KS_SUB_LBL">
+             <property name="text">
+              <string>Subsoil Ks (m/s):</string>
+             </property>
+            </widget>
+           </item>
+           <item row="12" column="1">
+            <widget class="QLineEdit" name="KS_SUB"/>
+           </item>
+           <item row="13" column="1">
+            <widget class="QLineEdit" name="CAT"/>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>Dialog</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>Dialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

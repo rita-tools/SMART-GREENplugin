@@ -1,0 +1,10 @@
+# use pylupdate4 to create/update the ts file,
+# then, edit the ts file with the translated text
+# and comnpile it with lrelease
+# optionally, manually insert new string to be translated
+# if they are not recognized by pylupdate4
+
+pylupdate4 smartgreen.pro -ts i18n/smartgreen_ui_it.ts
+pylupdate4 *.py -ts i18n/mobidic_ui_it.ts # all py file
+pylupdate4 afile.py -ts i18n/mobidic_ui_it.ts # only afile
+lrelease i18n/smartgreen_ui_it.ts

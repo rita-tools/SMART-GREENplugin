@@ -1,0 +1,7 @@
+# tabella con tipologie di substrato da impiegarsi nelle LID
+#OBJ_ID: identificativo univoco (testo), NAME: nome descrittivo, KS: conducibilità idraulica in m/s
+#NOTE: note aggiuntive
+OBJ_ID;NAME;KS;NOTE
+81;sabbia;1.00E-09;esempio
+82;ghiaia;5.00E-09;esempio
+83;argilla;0;esempio

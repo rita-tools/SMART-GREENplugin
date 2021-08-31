@@ -1,0 +1,1 @@
+pylupdate4 tools/gis_grid.py -ts i18n/mobidic_ui_it2.ts

@@ -1,0 +1,8 @@
+# tabella di importazione per lo strato dei bacini
+#variabile;campo;um
+qgis.soilslayer.field.obj_id;;
+qgis.soilslayer.field.ks;;
+qgis.soilslayer.field.wg0;;
+qgis.soilslayer.field.wc0;;
+qgis.soilslayer.field.msg;;
+### end ###

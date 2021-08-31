@@ -1,0 +1,51 @@
+# id = identificativo del tipo di uso di suolo
+# descrizione = nome o descrizione dell'uso del suolo
+# Wp0 = intercettazione (mm)
+# CH = coefficiente di scambio turbolento
+# Alb = albedo
+id;descrizione;Wp0;CH;Alb
+131;Cave;3;1.00E-03;2.00E-01
+133;Cantieri;3;1.00E-03;2.00E-01
+134;Aree degradate non utilizzate e non vegetate;3;1.00E-03;2.00E-01
+213;Risaie;3;1.00E-03;2.00E-01
+222;Frutteti e frutti minori;3;1.00E-03;2.00E-01
+314;Rimboschimenti recenti;3;1.00E-03;2.00E-01
+411;Vegetazione delle aree umide interne e delle torbiere;3;1.00E-03;2.00E-01
+511;Alvei fluviali e corsi d'acqua artificiali;3;1.00E-03;2.00E-01
+1111;Tessuto residenziale denso;3;1.00E-03;2.00E-01
+1112;Tessuto residenziale continuo mediamente denso;3;1.00E-03;2.00E-01
+1121;Tessuto residenziale discontinuo;3;1.00E-03;2.00E-01
+1122;Tessuto residenziale rado e nucleiforme;3;1.00E-03;2.00E-01
+1123;Tessuto residenziale sparso;3;1.00E-03;2.00E-01
+1221;Reti stradali e spazi accessori;3;1.00E-03;2.00E-01
+1222;Reti ferroviarie e spazi accessori;3;1.00E-03;2.00E-01
+1411;Parchi e giardini;3;1.00E-03;2.00E-01
+1412;Aree verdi incolte;3;1.00E-03;2.00E-01
+1421;Impianti sportivi;3;1.00E-03;2.00E-01
+1422;Campeggi e strutture turistiche e ricettive;3;1.00E-03;2.00E-01
+2111;Seminativi semplici;3;1.00E-03;2.00E-01
+2112;Seminativi arborati;3;1.00E-03;2.00E-01
+2115;Orti familiari;3;1.00E-03;2.00E-01
+2241;Pioppeti;3;1.00E-03;2.00E-01
+2242;Altre legnose agrarie;3;1.00E-03;2.00E-01
+2311;Prati permanenti in assenza di specie arboree ed arbustive;3;1.00E-03;2.00E-01
+2312;Prati permanenti con presenza di specie arboree ed arbustive sparse;3;1.00E-03;2.00E-01
+3113;Formazioni ripariali;3;1.00E-03;2.00E-01
+3223;Vegetazione degli argini sopraelevati;3;1.00E-03;2.00E-01
+3241;Cespuglieti con presenza significativa di specie arbustive alte ed arboree;3;1.00E-03;2.00E-01
+3242;Cespuglieti in aree di agricole abbandonate;3;1.00E-03;2.00E-01
+5121;Bacini idrici naturali;3;1.00E-03;2.00E-01
+5122;Bacini idrici artificiali;3;1.00E-03;2.00E-01
+5123;Bacini idrici da attività estrattive interessanti la falda;3;1.00E-03;2.00E-01
+11231;Cascine;3;1.00E-03;2.00E-01
+12111;Insediamenti industriali, artigianali, commerciali;3;1.00E-03;2.00E-01
+12112;Insediamenti produttivi agricoli;3;1.00E-03;2.00E-01
+12122;Impianti di servizi pubblici e privati;3;1.00E-03;2.00E-01
+12123;Impianti tecnologici;3;1.00E-03;2.00E-01
+12124;Cimiteri;3;1.00E-03;2.00E-01
+21131;Colture orticole a pieno campo;3;1.00E-03;2.00E-01
+21132;Colture orticole protette.;3;1.00E-03;2.00E-01
+21141;Colture floro-vivaistiche a pieno campo;3;1.00E-03;2.00E-01
+21142;Colture floro-vivaistiche protette;3;1.00E-03;2.00E-01
+31111;Boschi di latifoglie a densità media e alta;3;1.00E-03;2.00E-01
+31121;Boschi di latifoglie a densità bassa;3;1.00E-03;2.00E-01

@@ -1,0 +1,14 @@
+# default outputs settings
+id;value;name;description
+state_output.Qret;1;Save states for streams;option to save states of streams network for results analysis (<0>=NO, <1>=YES)
+state_output.res_rout;0;Save states for reservoirs;option to save states of reservoirs and lakes for results analysis (<0>=NO, <1>=YES)
+state_output.Wc;1;Save states for small pores;option to save states of soil small pores for results analysis (<0>=NO, <1>=YES)
+state_output.Wg;1;Save states for large pores;option to save states of soil large pores for results analysis (<0>=NO, <1>=YES)
+state_output.Ws;1;Save states for TODO;(<0>=NO, <1>=YES)
+state_output.Wp;0;Save states for TODO;(<0>=NO, <1>=YES)
+state_output.Ts;0;Save states for land surface temperature;option to save states of land surface temperature for results analysis (<0>=NO, <1>=YES)
+state_output.Td;0;Save states for ground temperature;option to save states of ground temperature for results analysis (<0>=NO, <1>=YES)
+state_output.h;0;Save states for acquifer;option to save states of aquifers for results analysis (<0>=NO, <1>=YES)
+state_output.evr;0;Save states for evapotranspiration TODO;option to save states of evapotranspiration and precipitation for results analysis (<0>=NO, <1>=YES)
+state_output.ener;0;Save states for evapotranspiration TODO;option to save states of evapotranspiration and precipitation for results analysis (<0>=NO, <1>=YES)
+### end ###

@@ -1,0 +1,7 @@
+# tabella di importazione per lo strato dei bacini
+#variabile;campo;um
+qgis.subcatchmentslayer.field.obj_id;;
+qgis.subcatchmentslayer.field.node_id;;
+qgis.subcatchmentslayer.field.tvalue;;
+qgis.subcatchmentslayer.field.msg;;
+### end ###

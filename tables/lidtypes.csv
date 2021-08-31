@@ -1,0 +1,6 @@
+OBJ_ID;NAME;CAT;VOL;HEIGHT;DIAM_OUT;HEIGHT_OUT;DEPTH;KS_SOIL;TETA_SAT;TETA_FC;TETA_WP;SLOPE;WP_MAX;KS_SUB
+1;barrel;1;2;1.8;0.1;0.18;;;;;;;;0
+2;drained well;1;2;1.8;0;0;;;;;;;;0.001
+3;drained barrel;1;2;1.8;0.1;0.18;;;;;;;;0.001
+4;green roof;2;;;;;0.5;1.00E-05;0.4;0.3;0.1;0;0.005;0
+5;drained area;2;;;;;0.5;1.00E-05;0.4;0.3;0.1;0;0.005;0.001

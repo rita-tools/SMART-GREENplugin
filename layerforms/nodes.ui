@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>465</width>
+    <height>242</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="locale">
+   <locale language="English" country="UnitedKingdom"/>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="3" column="1">
+    <widget class="QLineEdit" name="AREA"/>
+   </item>
+   <item row="4" column="1">
+    <widget class="QComboBox" name="TABLE_CB">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="TABLE_LBL">
+     <property name="text">
+      <string>Table:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="2">
+    <widget class="QLineEdit" name="TABLE"/>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="OBJ_ID_LBL">
+     <property name="locale">
+      <locale language="English" country="UnitedStates"/>
+     </property>
+     <property name="text">
+      <string>Object id:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLineEdit" name="OBJ_ID">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="0">
+    <widget class="QLabel" name="MSG_LBL">
+     <property name="text">
+      <string>Message:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QLineEdit" name="ELEV_BOT"/>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="AREA_LBL">
+     <property name="text">
+      <string>Section area (m^2):</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="ELEV_TOP_LBL">
+     <property name="text">
+      <string>Top elevation (m):</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QLineEdit" name="ELEV_TOP"/>
+   </item>
+   <item row="8" column="1">
+    <widget class="QLineEdit" name="MSG"/>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="ELEV_BOT_LBL">
+     <property name="text">
+      <string>Bottom elevation (m):</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

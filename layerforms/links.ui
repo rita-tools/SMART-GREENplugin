@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>465</width>
+    <height>471</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>465</width>
+    <height>471</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>465</width>
+    <height>471</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="locale">
+   <locale language="English" country="UnitedKingdom"/>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="sizeConstraint">
+    <enum>QLayout::SetMinAndMaxSize</enum>
+   </property>
+   <item row="12" column="0">
+    <widget class="QLabel" name="MANN_LBL">
+     <property name="text">
+      <string>n of Manning:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="13" column="1">
+    <widget class="QLineEdit" name="LENGTH"/>
+   </item>
+   <item row="13" column="0">
+    <widget class="QLabel" name="LENGTH_LBL">
+     <property name="text">
+      <string>Length (m):</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="0">
+    <widget class="QLabel" name="DIM2_LBL">
+     <property name="text">
+      <string>Dimension 2 (m):</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLineEdit" name="OBJ_ID">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QComboBox" name="NODE_START_CB">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="0">
+    <widget class="QLabel" name="ELEV_START_LBL">
+     <property name="text">
+      <string>Start elevation (m):</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2">
+    <widget class="QLineEdit" name="NODE_END">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QComboBox" name="S_SHAPE_CB">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="0">
+    <widget class="QLabel" name="ELEV_END_LBL">
+     <property name="text">
+      <string>End elevation (m):</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="1">
+    <widget class="QLineEdit" name="DIM1"/>
+   </item>
+   <item row="9" column="2">
+    <widget class="QLineEdit" name="TABLE"/>
+   </item>
+   <item row="14" column="0">
+    <widget class="QLabel" name="MSG_LBL">
+     <property name="text">
+      <string>Message:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="0">
+    <widget class="QLabel" name="TABLE_LBL">
+     <property name="text">
+      <string>Table:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="1">
+    <widget class="QLineEdit" name="DIM3"/>
+   </item>
+   <item row="8" column="1">
+    <widget class="QLineEdit" name="DIM4"/>
+   </item>
+   <item row="9" column="1">
+    <widget class="QComboBox" name="TABLE_CB">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="NODE_START_LBL">
+     <property name="text">
+      <string>Start node:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="0">
+    <widget class="QLabel" name="DIM3_LBL">
+     <property name="text">
+      <string>Dimension 3 (m):</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QLineEdit" name="DIAM"/>
+   </item>
+   <item row="11" column="1">
+    <widget class="QLineEdit" name="ELEV_END"/>
+   </item>
+   <item row="6" column="1">
+    <widget class="QLineEdit" name="DIM2"/>
+   </item>
+   <item row="14" column="1">
+    <widget class="QLineEdit" name="MSG"/>
+   </item>
+   <item row="5" column="0">
+    <widget class="QLabel" name="DIM1_LBL">
+     <property name="text">
+      <string>Dimension 1 (m):</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="OBJ_ID_LBL">
+     <property name="locale">
+      <locale language="English" country="UnitedStates"/>
+     </property>
+     <property name="text">
+      <string>Object id:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="NODE_END_LBL">
+     <property name="text">
+      <string>End node:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="1">
+    <widget class="QLineEdit" name="ELEV_START"/>
+   </item>
+   <item row="1" column="2">
+    <widget class="QLineEdit" name="NODE_START">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+    </widget>
+   </item>
+   <item row="12" column="1">
+    <widget class="QLineEdit" name="MANN"/>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="DIAM_LBL">
+     <property name="text">
+      <string>Diameter (m):</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="S_SHAPE_LBL">
+     <property name="text">
+      <string>Section shape:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QComboBox" name="NODE_END_CB">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="2">
+    <widget class="QLineEdit" name="S_SHAPE"/>
+   </item>
+   <item row="8" column="0">
+    <widget class="QLabel" name="DIM4_LBL">
+     <property name="text">
+      <string>Dimension 4 (m):</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

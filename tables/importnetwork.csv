@@ -1,0 +1,19 @@
+# tabella di importazione del reticolo da schema D.d.g. 10 aprile 2014 - n. 3095
+#variabile;campo;um
+qgis.networklayer.field.obj_id;FILE_ID;
+qgis.networklayer.field.node_start;NODO_INI;
+qgis.networklayer.field.node_end;NODO_FIN;
+qgis.networklayer.field.s_shape;FORMA;
+qgis.networklayer.field.diam;L_DIA;mm
+qgis.networklayer.field.dim1;L_F_ALT;m
+qgis.networklayer.field.dim2;L_F_LARG;m
+qgis.networklayer.field.dim3;;-
+qgis.networklayer.field.dim4;;-
+qgis.networklayer.field.table;;
+qgis.networklayer.field.elev_start;QUO_INI;m
+qgis.networklayer.field.elev_end;QUO_FIN;m
+qgis.networklayer.field.mann;n_Manning;-
+qgis.networklayer.field.length;L_LUNG;m
+qgis.networklayer.field.tvalue;;
+qgis.networklayer.field.msg;;
+### end ###

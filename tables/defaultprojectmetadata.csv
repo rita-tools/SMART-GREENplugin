@@ -1,0 +1,10 @@
+# project metadata
+id;value;name;description
+project_name;Replace with something of meaningfull;Project name;Project name
+project_descr;Replace with something of meaningfull;Project description;Project description
+basin_id;basin_id;Basin id;Any string with no blank characters
+paramset_id;simulation_parameters_id;Simulation id;Simulation identifier
+basin_blon;11.0;Longidute;Basin centroid longidute
+basin_blat;44.0;Latitude;Basin centroid latitude
+autofixdata;0;Fix data;Automatically fix data in case of error (0=No, 1=Yes)
+### end ###
